@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 150vh;
+}
+
+.header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("/src/images/Image.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clip-path: circle(180vh at 50% center);
+}
+
+.header .content {
+  max-width: 1000px;
+  text-align: center;
+}
+
+.header .content h2 {
+  font-size: 42px;
+  color: #111;
+  font-weight: 800;
+}

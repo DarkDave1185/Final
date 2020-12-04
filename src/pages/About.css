@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.about {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+img {
+  margin: 5px;
+  max-width: 100px;
+  max-height: 100px;
+  border: crimson solid 4px;
+  border-radius: 10px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  /*   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+ */
+  z-index: -1;
+  border: 2px solid black;
+}
+
+p {
+  padding: 10px;
+  font-size: 20px;
+  z-index: 1;
+}
